@@ -1,0 +1,38 @@
+#fileUpload{
+  display: none;
+}
+.fileupload__btn{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  border-radius: 3px;
+  color: #fff;
+  padding: 16px 34px;
+  background-color: #006AFF;
+}
+.cloud__img{
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.uploaded-files{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  width: 100px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.uploaded-files{
+  margin-left: 50px;
+}
+.uploaded-files-active{
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(#333,.4);
+}
+.disabled{
+  opacity: .5;
+}

@@ -1,0 +1,206 @@
+.poster{
+  padding-top: 20px;
+  padding-bottom: 240px;
+  background-color: #fff;
+}
+.poster__title{
+  width: 100%;
+  max-width: 735px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 0 auto;
+  margin-top:50px;
+}
+.poster__date__actions{
+  width: 100%;
+  max-width: 735px;
+  padding:40px 35px 50px 35px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 37px;
+}
+.poster__date__title{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+.poster__form__date{
+  margin-top: 30px;
+}
+.poster__date__label{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color:rgba(#333333,.4);
+}
+.poster__date__inputs{
+  margin-top: 14px;
+}
+.poster__calendar,
+.poster__status__btn,
+.poster__video__link{
+  background-color:rgba(#333333,.1);
+}
+.poster__calendar+.poster__calendar{
+  margin-left: 40px;
+}
+.poster__calendar:nth-child(1){
+  width: 170px;
+}
+.poster__calendar:nth-child(2){
+  width: 140px;
+}
+.poster__directions{
+  margin-top: 30px;
+}
+.poster__directions__labels{
+  display: flex;
+  justify-content: space-between;
+}
+#poster__directions__select{
+  display: flex;
+  justify-content: space-between;
+}
+.poster__direction{
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 18px;
+  color: #333;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color:rgba(#333333,.1);
+  width: 310px;
+  margin-top: 14px;
+}
+.poster__status__btn{
+  width: 155px;
+  transition: all .3s;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.poster__status__btn:hover{
+  background-color: #006AFF;
+  color: #fff !important;
+}
+.poster__video__link{
+  width: 310px;
+  color: #006AFF !important;
+  margin-top: 14px;
+}
+.poster__radio__wrapper{
+  width: 100%;
+  max-width: 735px;
+  margin: 86px auto 0 auto;
+}
+.poster__company__title{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
+.poster__company__label{
+  display: inline-flex;
+  align-items: center;
+}
+.poster__company__label{
+  margin-left: 60px;
+}
+.poster__company__type{
+  margin-right: 10px;
+} 
+.poster__company__radio__input{
+  width: 20px;
+  height: 20px;
+}
+.poster__data__suptitle{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.poster__data__title{
+  font-family: 'Bebas Neue', cursive !important; 
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  line-height: 42px !important;
+  margin-top: 18px;
+}
+.poster__description__wrapper{
+  margin-top: 86px;
+}
+.poster__description__suptitle{ 
+  display: block; 
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #333;
+}
+.poster__description__title{
+  background-color:rgba(#333333,.1);
+  width: 100%;
+  margin-top: 10px;
+}
+.poster__file__wrapper{
+  margin-top: 40px;
+}
+.poster__file{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  display: inline-block;
+  margin-top: 24px;
+}
+.poster__file__rule{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #006AFF;
+  margin-top: 20px;
+}
+.poster__text__wrapper{
+  margin-top: 60px;
+}
+.poster__text{
+  padding: 16px;
+  width: 100%;
+  height: 245px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #333;
+  background-color: rgba(#333333,.1);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin-top: 14px;
+  }
+  .poster__text::placeholder{
+    color:rgba(#333333,.4);
+  }
+  .poster__send__btns{
+    margin-top: 50px;
+  }
+  .poster__send{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 17px 36px;
+    border-radius: 3px;
+    outline: none;
+    border: transparent;
+    background-color: #006AFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  .post__ignore{
+    opacity: .4;
+    border: 1px solid #B2BBC8;
+    background-color: transparent;
+    color: #000 ;
+    margin-right: 15px;
+  }

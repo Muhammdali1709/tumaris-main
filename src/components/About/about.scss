@@ -1,0 +1,38 @@
+.about{
+  padding-top: 20px;
+  padding-bottom: 140px;
+  background-color: #fff;
+}
+.about__header{
+  display: inline-flex;
+  align-items: center;
+  img{
+    cursor: pointer;
+  }
+}
+.about__header__text{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-left: 13px;
+}
+.about__body{
+  width: 100%;
+  max-width: 800px;
+  margin-top: 70px;
+}
+.about__title{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #333;
+}
+.about__text{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.about__description{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
