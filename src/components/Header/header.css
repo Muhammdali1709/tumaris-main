@@ -1,22 +1,26 @@
-.header{
+.header {
   padding: 20px 0;
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(184,110,131,1) 44%, rgba(252,176,69,1) 100%);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(184, 110, 131) 44%, rgb(252, 176, 69) 100%);
 }
-.header__inner{
+
+.header__inner {
   display: flex;
   align-items: center;
 }
-.header__logo{
+
+.header__logo {
   margin-right: auto;
   font-size: 36px;
   line-height: 43px;
   color: #fff;
 }
-.header__form{
+
+.header__form {
   margin-right: 100px;
 }
-.header__search{
+
+.header__search {
   display: flex;
   align-items: center;
   width: 100%;
@@ -27,7 +31,8 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
-.header__input{
+
+.header__input {
   font-family: "SF Pro Display";
   font-size: 14px;
   font-weight: 400;
@@ -39,10 +44,20 @@
   margin-left: 10px;
   color: #fff;
 }
-.header__input::placeholder{
+
+.header__input::-moz-placeholder {
   color: #fff;
 }
-.header__button{
+
+.header__input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.header__input::placeholder {
+  color: #fff;
+}
+
+.header__button {
   font-family: "SF Pro Display";
   margin-left: 60px;
   display: inline-flex;
@@ -59,6 +74,7 @@
   cursor: pointer;
   color: #fff;
 }
-.header__button__logo{
+
+.header__button__logo {
   margin-right: 10px;
-}
+}/*# sourceMappingURL=header.css.map */

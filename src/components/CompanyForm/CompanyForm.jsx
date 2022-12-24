@@ -5,15 +5,15 @@ function CompanyForm() {
     <div className='person__input__wrapper'>
     <label htmlFor="person__input__box">
       <span className='person__input__name'>Yuridik nomi</span>
-      <Input type="text" id="person__input__box" className="person__input" placeholder="Najot Ta’lim MCHJ" />
+      <Input type="text" id="person__input__box" className="person__input" placeholder="Yurdik nom" />
     </label>
     <label htmlFor="person__input__box">
       <span className='person__input__name'>Ismi sharifi</span>
-      <Input type="text" id="person__input__box" className="person__input" placeholder="Mirsidiq Mirzokirov" />
+      <Input type="text" id="person__input__box" className="person__input" placeholder="Ism sharifngiz" />
     </label>
     <label htmlFor="person__input__box">
-      <span className='person__input__name'>Professiya</span>
-      <Input type="text" id="person__input__box" className="person__input" placeholder="Web dasturchi" />
+      <span className='person__input__name'>Qanday ishilarni eplay olasiz</span>
+      <Input type="text" id="person__input__box" className="person__input" placeholder="Ishngiz" />
     </label>
     <label htmlFor="person__input__box">
       <span className='person__input__name'>Telefon raqami</span>

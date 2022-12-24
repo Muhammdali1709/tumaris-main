@@ -100,7 +100,7 @@ function Poster() {
           </div>
           <div className="poster__date__actions">
             <p className='poster__data__suptitle'>Post</p>
-            <Input type="text" className="poster__data__title" placeholder="MAVZUNI SARLAVHASI" style={{ "padding": "0", "width": "100%" }} />
+            <Input type="text" className="poster__data__title" placeholder="ISHINGZNI SARLAVHASI" style={{ "padding": "0", "width": "100%" }} />
             <div className="poster__description__wrapper">
               <span className='poster__description__suptitle'>Description</span>
               <Input type="text" className="poster__description__title" placeholder="Description"/>

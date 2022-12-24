@@ -12,7 +12,7 @@ function Card(props) {
     <>
       <article className='card'{...props}>
         <div className="card__img">
-          <img src={props.data.image} alt="thumbnail" className='card__thumbnail' />
+          <img src={"https://picsum.photos/200/300"} alt="thumbnail" className='card__thumbnail' />
         </div>
         <div className="card__body">
           <h4 className="card__title">

@@ -6,11 +6,11 @@ function PersonForm() {
     <div className='person__input__wrapper'>
       <label htmlFor="person__input__box">
         <span className='person__input__name'>Ismi sharifi</span>
-        <Input type="text" id="person__input__box" className="person__input" placeholder="Mirsidiq Mirzokirov" />
+        <Input type="text" id="person__input__box" className="person__input" placeholder="Dilshoda Rahimova" />
       </label>
       <label htmlFor="person__input__box">
         <span className='person__input__name'>Professiya</span>
-        <Input type="text" id="person__input__box" className="person__input" placeholder="Web dasturchi" />
+        <Input type="text" id="person__input__box" className="person__input" placeholder="Buglater" />
       </label>
       <label htmlFor="person__input__box">
         <span className='person__input__name'>Telefon raqami</span>

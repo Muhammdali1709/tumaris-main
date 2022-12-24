@@ -1,8 +1,8 @@
 import React, { useEffect, useState,useContext, createContext } from 'react'
 import Card from '../Card/Card'
 import Filter from '../Filter/Filter'
-import boy from "../../assets/images/boy.png"
-import boy2 from "../../assets/images/boy2.png"
+import boy from "../../assets/images/woman1.png"
+import boy2 from "../../assets/images/woman.png"
 import "./main.scss"
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
@@ -32,7 +32,7 @@ function Main() {
       <main className='main'>
         <section className="hero">
           <div className="container">
-            <h1 className='hero__title'>Eng so’ngi master klasslar va tadbirlar bizning saytda</h1>
+            <h1 className='hero__title'>Saytmizda o'zngzni ishingizni to'ping</h1>
             <Filter category={category} users={users} />
           </div>
         </section>
@@ -46,7 +46,7 @@ function Main() {
                     <SinglePage item={item} />
                     navigate("/singlePage")
                   }} data={item} />
-                ))
+                ))  
               }
             </div>
           <button className="load-more">
@@ -58,15 +58,15 @@ function Main() {
           <div className="container">
             <div className="info__inner">
               <div className="info__box-left">
-                <h3 className='info__box__title'>E’LONLARINGIZNI BIZNI SAYTDA BERING</h3>
+                <h3 className='info__box__title'>ISHINGIZNI BIZNI SAYTDA TOPING</h3>
                 <div className="info__box__img">
-                  <img src={boy} alt="model"  />
+                  <img src={boy} alt="model" width={500} height={300} />
                 </div>
               </div>
               <div className="info__box-right">
-                <h3 className='info__box__title'>ENG SO’NGI MASTER KLASLAR BIZNING SAYTDA</h3>
+                <h3 className='info__box__title'>O'ZINGIZGA MAQUL ISHINI BIZNI SAYTDA TOPING YOKIDA ISHKA TOPSHIRING</h3>
                 <div className="info__box__img" id='info__boy__img'>
-                  <img src={boy2} alt="model"  />
+                  <img src={boy2} alt="model" width={500} height={500} />
                 </div>
               </div>
             </div>

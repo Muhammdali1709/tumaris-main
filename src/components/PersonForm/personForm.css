@@ -1,0 +1,18 @@
+.person__input__wrapper {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 310px);
+  gap: 30px;
+}
+
+.person__input__name {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.person__input {
+  width: 310px;
+  background-color: rgba(51, 51, 51, 0.1);
+  margin-top: 14px;
+}/*# sourceMappingURL=personForm.css.map */

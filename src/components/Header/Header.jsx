@@ -11,7 +11,7 @@ function Header() {
       <header className='header'>
         <div className="container">
           <div className="header__inner">
-            <NavLink to='/' className='header__logo'>Pressa</NavLink>
+            <NavLink to='/' className='header__logo'>Tumaris ish top</NavLink>
             <form className='header__form'>
               <label htmlFor="header__search" className='header__search'>
                 <img src={searchLogo} alt="search bar logo" className='search-logo' />

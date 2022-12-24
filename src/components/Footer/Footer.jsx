@@ -12,7 +12,7 @@ function Footer() {
       <footer className="footer">
         <div className="container">
             <div className="footer__inner">
-              <NavLink to='/' className='header__logo'>Pressa</NavLink>
+              <NavLink to='/' className='header__logo'>Tumaris ish top</NavLink>
             <Navbar />
             <div className="footer__contact">
               <a href='tel:903971860' className="footer__call">
